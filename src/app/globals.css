@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover-item-container:hover > .hover-item {
+  filter: invert(27%) sepia(63%) saturate(6905%) hue-rotate(15deg)
+    brightness(92%) contrast(88%);
+}
+
+.remove-item:hover > img {
+  filter: brightness(0) saturate(100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
